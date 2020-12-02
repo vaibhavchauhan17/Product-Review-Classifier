@@ -56,7 +56,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-
+"""
 —>On analysis I found that stopword removed not also ….which is not right so:-
 	To remove ‘not’ from stopwords:-
 		xx=stopwords.words('english')
@@ -82,6 +82,6 @@ accuracy_score(y_test, y_pred)
 		print("Best Accuracy: {:.2f} %".format(best_accuracy*100))
 		print("Best Parameters:", best_parameters)
 
-
+"""
 
 		
